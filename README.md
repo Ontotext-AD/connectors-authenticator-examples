@@ -26,11 +26,15 @@ This mechanism is based on [Apache HttpClient's CredentialsProvider](https://hc.
 
 This mechanism covers well-defined authentication scenarios, for which there might exist a ready-to-use `CredentialsProvider`.
 
+Example project: [credentials-provider-example](credentials-provider-example)
+
 #### The `HttpRequestInterceptor` mechanism
 
 This mechanism is based on [Apache HttpCore's HttpRequestInterceptor](https://hc.apache.org/httpcomponents-core-4.4.x/current/httpcore/apidocs/org/apache/http/HttpRequestInterceptor.html). It can be used to inject any header into the request, including custom authentication headers.
 
 This is the most flexible mechanism and should be able to cover all kinds of scenarios.
+
+Example project: [http-request-interceptor-example](http-request-interceptor-example)
 
 ### The `PropertiesConfigurator` interface
 
