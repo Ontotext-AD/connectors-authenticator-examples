@@ -1,4 +1,4 @@
-package com.ontotext.example;
+package com.ontotext.auth.example;
 
 import com.ontotext.trree.plugin.externalsync.auth.HttpClientConfigurator;
 import org.apache.http.HttpRequestInterceptor;
